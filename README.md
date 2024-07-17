@@ -72,6 +72,8 @@
 - 
 
 
+
+
 - 写实验记录：[如何规范的写实验记录](如何规范的写实验记录.md)
 - 写论文笔记：[如何规范的写论文笔记](如何规范的写论文笔记.md)
 - 写项目文档：[如何规范的管理项目](如何规范的管理项目.md)
@@ -83,4 +85,31 @@
 
 
 
+
 # 必读博客清单
+
+比特币从零开始的一个非常详细的文档，包含数据结构和技术细节：
+[Learn Me A Bitcoin (By Greg Walker)](https://learnmeabitcoin.com/)
+
+
+
+# 必了解的区块链
+- 比特币
+- 以太坊
+- 长安链
+- cosmos/Tendermint
+- 
+
+
+# 项目
+
+- 主要了解最简单的哈希时间锁的实现，和 Hardhat 框架：[buuzzing/htlc-demo (github.com)](https://github.com/buuzzing/htlc-demo)
+
+- Hardhat 框架，在以太坊上实现比特币的 SPV（仅包含默克尔验证交易存在性，不对交易逻辑进行验证）：[buuzzing/bitcoin-spv-in-solidity (github.com)](https://github.com/buuzzing/bitcoin-spv-in-solidity)
+
+- 王柯元师兄的ZK内容整理：[KyrinCode/ZKP (github.com)](https://github.com/KyrinCode/ZKP/)
+
+
+
+
+
