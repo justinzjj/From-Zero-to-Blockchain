@@ -1,7 +1,12 @@
+---
+date: 2024-09-17 
+writer: Justin
+---
+
 # 从零开始区块链
 从零开始区块链，又称区块链实验室**新生大礼包**，其目的在于让新入学的同志们可以从零开始学习区块链，了解区块链现状，了解实验室现状，了解组内的方向与人员构成。最终成为一名可以独当一面的区块链方向学者。
 
-# 必做事情清单
+## 必做事情清单
 
 
 - 基础技能与知识
@@ -10,25 +15,24 @@
 			- 椭圆曲线加密
 			- 哈希函数
 		- 区块链基本原理
-			- 链式结构
 		- 区块与交易
-	- 共识机制
-		- POW
-		- POS
-		- POA
-		- BFT
-		- 混合
-	- 智能合约
-		- 以太坊
-		- 长安链（希望以后的同志们不要碰这条链）
-	- 配置环境
-		- ubuntu虚拟机
-		- go环境
-		- rust环境
-		- python环境
+		- 共识机制
+			- POW
+			- POS
+			- POA
+			- BFT
+			- 混合
+		- 智能合约
 	- 基础工具使用
-		- 使用docker：[如何使用docker封印小型项目](如何使用docker封印小型项目.md)
-		- 使用git：[如何规范的管理项目](如何规范的管理项目.md)
+		- 使用docker：
+			- [Docker: Accelerated Container Application Development](https://www.docker.com/)
+		- 使用git：
+			- [Git教程](https://liaoxuefeng.com/books/git/introduction/index.html)
+	- 配置环境
+		- ubuntu虚拟机：
+		- go环境：[Go 语言教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/go/go-tutorial.html)
+		- rust环境：[安装 Rust - Rust 程序设计语言 (rust-lang.org)](https://www.rust-lang.org/zh-CN/tools/install)
+		- python环境：
 ---
 - 进阶项目
 	- 比特币
@@ -44,12 +48,11 @@
 		- 调用合约
 		- 获取收据
 		- 监听获取事件
-- 
 ---
 - 大方向
 	- 跨链
 	- 通量
-- 长安链
+- 长安链：[长安链学习](长安链学习.md)
 - COSMOS
 - rollup
 - ZK
@@ -61,7 +64,7 @@
 - 数据流转
 - 
 
-# 需要掌握的能力
+## 需要掌握的能力
 - 寻找信息：
 	- 
 - 阅读文献：
@@ -78,44 +81,50 @@
 	- 概念类：[如何规范的做一次概念分享](如何规范的做一次概念分享.md)
 
 
-# 必看论文清单
+## 必看论文清单
+暂未更新
 
 
 
-
-# 必读博客清单
+## 必读博客清单
 
 比特币从零开始的一个非常详细的文档，包含数据结构和技术细节：
 [Learn Me A Bitcoin (By Greg Walker)](https://learnmeabitcoin.com/)
 
 
 
-# 必了解的区块链
+## 必了解的区块链
 - 比特币
 - 以太坊
 - 长安链
 - cosmos/Tendermint
 
 
-# 项目
+## 仓库链接
 
-- 组内跨链demo：
+- 跨链协议栈demo--以太坊版本：（目前为私有仓库）
 	- 作者：姚建业、周嘉杰
-	-  [buuzzing/CrossETHDemo: A simple example of Ethereum cross chain Ethereum (github.com)](https://github.com/buuzzing/CrossETHDemo)
-- 长安链 学习demo：
+	-  [CrossETHDemo](https://github.com/buuzzing/CrossETHDemo)
+- 长安链学习demo：
 	- 作者：姚建业
-	- 链接：[buuzzing/learn-chainmaker: 最简化版的长安链单链部署，合约部署和调用 (github.com)](https://github.com/buuzzing/learn-chainmaker)
+	- 链接：
+- Cosmos学习demo：
+	- 作者：周嘉杰
+	- 链接：
 - 主要了解最简单的哈希时间锁的实现，和 Hardhat 框架：
 	- 作者：姚建业
 	- 链接：[buuzzing/htlc-demo (github.com)](https://github.com/buuzzing/htlc-demo)
-
-
-- Hardhat 框架，在以太坊上实现比特币的 SPV（仅包含默克尔验证交易存在性，不对交易逻辑进行验证）：[buuzzing/bitcoin-spv-in-solidity (github.com)](https://github.com/buuzzing/bitcoin-spv-in-solidity)
-
-
-- 王柯元师兄的ZK内容整理：[KyrinCode/ZKP (github.com)](https://github.com/KyrinCode/ZKP/)
-
-
-- 
+- GETH脚本：主要是部署GETH、启动GETH
+	- 作者：周嘉杰
+	- 链接：[DevTools: 日常开发用的小工具 脚本等内容](https://github.com/justinzjj/DevTools
+- Hardhat 框架，在以太坊上实现比特币的 SPV（仅包含默克尔验证交易存在性，不对交易逻辑进行验证）：
+	- 作者：姚建业
+	- 链接：[bitcoin-spv-in-solidity](https://github.com/buuzzing/bitcoin-spv-in-solidity)
+- ZK内容整理：
+	- 作者：王柯元
+	- 链接：[KyrinCode/ZKP (github.com)](https://github.com/KyrinCode/ZKP/)
+- 论文爬取脚本（目前为私有仓库）
+	- 作者：周嘉杰
+	- 链接：[PaperCrawler](https://github.com/justinzjj/PaperCrawler)
 
 
